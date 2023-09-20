@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Panno", "src\Panno\Panno.cs
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Panno.FluentValidation", "src\Panno.FluentValidation\Panno.FluentValidation.csproj", "{D67110B6-FF6F-4D08-9FAE-C57EE0311238}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Panno.AspNetCore", "src\Panno.AspNetCore\Panno.AspNetCore.csproj", "{22B5A178-4BB0-4B3D-B8EB-67DAA69E0493}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,9 +23,14 @@ Global
 		{D67110B6-FF6F-4D08-9FAE-C57EE0311238}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D67110B6-FF6F-4D08-9FAE-C57EE0311238}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D67110B6-FF6F-4D08-9FAE-C57EE0311238}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22B5A178-4BB0-4B3D-B8EB-67DAA69E0493}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22B5A178-4BB0-4B3D-B8EB-67DAA69E0493}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22B5A178-4BB0-4B3D-B8EB-67DAA69E0493}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22B5A178-4BB0-4B3D-B8EB-67DAA69E0493}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{9811CADC-8F74-4F76-BE22-1991E2FF26CD} = {8D9E3362-FA1B-4A19-BFE3-624363ECEA0C}
 		{D67110B6-FF6F-4D08-9FAE-C57EE0311238} = {8D9E3362-FA1B-4A19-BFE3-624363ECEA0C}
+		{22B5A178-4BB0-4B3D-B8EB-67DAA69E0493} = {8D9E3362-FA1B-4A19-BFE3-624363ECEA0C}
 	EndGlobalSection
 EndGlobal
