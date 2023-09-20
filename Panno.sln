@@ -5,6 +5,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{8D9E3362-FA1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Panno", "src\Panno\Panno.csproj", "{9811CADC-8F74-4F76-BE22-1991E2FF26CD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Panno.FluentValidation", "src\Panno.FluentValidation\Panno.FluentValidation.csproj", "{D67110B6-FF6F-4D08-9FAE-C57EE0311238}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,8 +17,13 @@ Global
 		{9811CADC-8F74-4F76-BE22-1991E2FF26CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9811CADC-8F74-4F76-BE22-1991E2FF26CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9811CADC-8F74-4F76-BE22-1991E2FF26CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D67110B6-FF6F-4D08-9FAE-C57EE0311238}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D67110B6-FF6F-4D08-9FAE-C57EE0311238}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D67110B6-FF6F-4D08-9FAE-C57EE0311238}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D67110B6-FF6F-4D08-9FAE-C57EE0311238}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{9811CADC-8F74-4F76-BE22-1991E2FF26CD} = {8D9E3362-FA1B-4A19-BFE3-624363ECEA0C}
+		{D67110B6-FF6F-4D08-9FAE-C57EE0311238} = {8D9E3362-FA1B-4A19-BFE3-624363ECEA0C}
 	EndGlobalSection
 EndGlobal
